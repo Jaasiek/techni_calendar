@@ -107,19 +107,13 @@
     align-items: center;
     position: relative;
     width: 95%;
-    min-height: 800px;
-    height: auto;
-    margin-bottom: 150px;
 
     .table {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      margin-top: 200px;
       margin-bottom: 200px;
-      min-height: 800px;
       height: auto;
-      position: absolute;
       .column {
         padding: 10px;
         min-width: 200px;
@@ -153,36 +147,6 @@
             }
           }
         }
-      }
-    }
-  }
-}
-@media screen and (max-width: 1036px) {
-  .app-dashboard-container {
-    .container {
-      .table {
-        padding-top: 600px;
-        padding-bottom: 200px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 777px) {
-  .app-dashboard-container {
-    .container {
-      .table {
-        padding-top: 1000px;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 518px) {
-  .app-dashboard-container {
-    .container {
-      .table {
-        padding-top: 2225px;
       }
     }
   }
