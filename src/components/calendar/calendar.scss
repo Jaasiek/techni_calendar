@@ -17,9 +17,12 @@
     width: fit-content;
     min-width: 200px;
   }
-
-  h2:hover {
-    cursor: default;
+  h2 {
+    align-self: flex-start;
+    margin-left: 25px;
+    &:hover {
+      cursor: default;
+    }
   }
 
   .table {
